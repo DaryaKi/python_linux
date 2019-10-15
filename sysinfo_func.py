@@ -21,4 +21,6 @@ def main():
 	uname_func()
 	disk_func()
 
-main()
+#This condition enures that the modul can be called only from command line and cannot be executed from IPython
+if __name__ == "__main__":
+	main()
